@@ -1,12 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 public class Health : MonoBehaviour
 {
     public GameObject explosionTemplate;
     public int healthPoint;
-
     public System.Action OnPlayerDied;
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -23,4 +19,5 @@ public class Health : MonoBehaviour
             }  
         }
     }
+  
 }

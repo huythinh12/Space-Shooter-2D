@@ -123,6 +123,40 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27892465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134675093507829984, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
+  m_PrefabInstance: {fileID: 383154412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &27892466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27892465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b41e8eb0e89a8846b7a5415a9ed1368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &97737433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134675093507829984, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
+  m_PrefabInstance: {fileID: 1151147699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &97737434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97737433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b41e8eb0e89a8846b7a5415a9ed1368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &179125620
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,11 +304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.34
+      value: 0.88
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.92
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -612,6 +646,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &812572033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134675093507829984, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
+  m_PrefabInstance: {fileID: 3134675093941556621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &812572034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812572033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b41e8eb0e89a8846b7a5415a9ed1368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &844981961
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,6 +716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -938,11 +990,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8
+      value: 2.92
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.05
+      value: 3.29
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1055,6 +1107,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158283268}
   m_CullTransparentMesh: 0
+--- !u!1 &1216629533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134675093507829984, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
+  m_PrefabInstance: {fileID: 1957554024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1216629534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216629533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b41e8eb0e89a8846b7a5415a9ed1368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1351510438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,6 +1343,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1789423678
 Canvas:
   m_ObjectHideFlags: 0
@@ -1510,7 +1580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.07
+      value: -2.9
       objectReference: {fileID: 0}
     - target: {fileID: 3134675093507829986, guid: 48c26ca55a5ef41d18c980c2ed4c0e1d, type: 3}
       propertyPath: m_LocalPosition.y
